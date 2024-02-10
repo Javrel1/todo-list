@@ -3,9 +3,9 @@ let element = document.getElementById('element');
 function Add() {
     let task = document.createElement('div');
     task.style.backgroundColor = 'gray'
-    task.style.width = '300px'
+    task.style.width = '355px'
     task.style.height = '45px'
-    task.style.marginLeft = '20px'
+    task.style.marginLeft = '10px'
     task.style.fontSize = '15px'
     task.style.display = 'flex'
     task.style.alignItems = 'center'
