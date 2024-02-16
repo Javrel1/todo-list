@@ -22,8 +22,8 @@ body{
     justify-content: space-between;
 }
 .left, .right{
-    width: 400px;
-    height: 400px;
+    width: 430px;
+    height: 430px;
     background-color: #212F3C;
     overflow: scroll;
 }
@@ -48,6 +48,7 @@ input{
     border-radius: 5px;
     font-family: Poppins;
     font-size: 15px;
+    margin-top: 8px;
 }
 .add{
     display: flex;
@@ -62,4 +63,5 @@ input{
     cursor: pointer;
     margin-left: 5px;
     border-radius: 5px;
+    margin-top: 8px;
 }

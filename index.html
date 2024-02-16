@@ -22,10 +22,14 @@
                 <div onclick="Add()" class="add">Add</div>
             </div>
             <div id="element" class="element">
-<!--                Здесь будет создаваться элементы-->
+                <!-- Здесь будет создаваться элементы -->
             </div>
         </div>
-        <div class="right"></div>
+        <div id="right" class="left" ondrop="drop(event)" ondragover="allowDrop(event)" ondragenter="dragEnter(event)" ondragleave="dragLeave(event)">
+            <div class="text">
+                DONE
+            </div>
+        </div>
     </div>
 </div>
 
